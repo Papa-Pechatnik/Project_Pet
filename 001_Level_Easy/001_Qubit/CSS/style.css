@@ -1,0 +1,281 @@
+body {
+    background-color: white;
+    font-family: Roboto;
+}
+
+h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+}
+
+h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 112%;
+
+    color: #1C1C1C;
+}
+
+h3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 85%;
+
+    text-align: center;
+
+    color: #000000;
+}
+
+h4 {
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 121%px;
+    color: #000000;
+}
+
+
+menu {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+menu img {
+    width: 79px;
+    height: 24px;
+    padding: 21px 0  23px;
+}
+
+nav {
+    width: 464px;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+
+nav a {
+    text-decoration: none;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+
+    color: #1C1C1C;
+}
+
+button {
+    width: 157px;
+    height: 40px;
+    align-self: center;
+
+    font-size: 14px;
+    line-height: 100%;
+    font-weight: 400;
+    color: white;
+
+    background-color: #6F2CFF;
+    border-radius: 20px;
+    border: none;
+
+}
+
+header {
+    background-color: #F6BED9;
+}
+header > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    width: 436px;
+    height: 570px;
+    /* top and bottom | left and right */
+    padding: 59px 0 ;
+
+}
+
+header .container > div > p {
+    width: 436px;
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 167%;
+    padding: 18px  0;
+}
+
+header .container > div > p > span {
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 167%;
+}
+
+h1 :nth-child(1) {
+    line-height: 113%;
+    color: #000000;    
+}
+
+h1 :nth-child(2) {
+    font-size: 54px;
+    line-height: 100%;
+    color: #6F2DFF;
+}
+
+input {
+    width: 262px; 
+    height: 41px;
+    align-self: center;
+    border: 1px solid #6F2CFF;
+    border-radius: 28px 28px 28px 27.5px;
+
+}
+
+input::placeholder {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140%;
+    color: rgba(0, 0, 0, 0.27);
+    padding-left: 26px;
+}
+
+.input {
+    display: inline;
+}
+
+.input button{
+    width: 187px;
+    height: 45px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140%;
+}
+
+.container {
+    width: 1245px;
+    margin: 0 auto;
+}
+
+section {
+    margin-top: 136px;
+}
+
+section footer {
+    display: flex; 
+    justify-content: space-between;
+}
+
+.sectionRiver {
+    display: flex; 
+    justify-content: space-between;
+}
+
+.sectionRiver h2 {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.sectionRiver .riverCont {
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+}
+
+.river {
+    width: 334px;
+}
+
+.river h3{
+    padding-top: 35px;
+    padding-bottom: 30px;
+    }
+
+.river img {
+    height: 205px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.river div {
+    height: 233px;
+    background-color: #FFFFFF;
+
+    box-shadow: 0px 2px 4px rgba(192, 192, 192, 0.5);
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.river p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 122%;
+    text-align: center;
+    color: #6F2CFF;
+}
+
+.Qubit {
+    text-align: center;
+}
+
+.Qubit h2 {
+    padding-top: 35px;
+    padding-bottom: 79px;
+    color: #000000;
+}
+
+.QubitCont {
+    display: flex;
+    justify-content: space-between;
+}
+
+.QubitCont {
+    display: flex;
+    justify-content: space-between;
+}
+
+.QubitCont h4{
+    padding-top: 42px;
+    padding-bottom: 16px;
+}
+.QubitCont div {
+    width: 314px;
+}
+
+.QubitCont div p:nth-child(3){
+    padding-top: 42px;
+    padding-bottom: 16px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    /* or 147% */
+    color: #000000;
+}
+
+.footer {
+    background-color: #20003C;
+}
+
+.footer nav {
+    width: 614px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 58px;
+    margin-bottom: 58px;
+    margin-left: 11px;
+}
+
+.footer nav a {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px; /* identical to box height, or 130% */
+    
+    color: #FFFFFF;
+    text-transform:capitalize;
+}
+
